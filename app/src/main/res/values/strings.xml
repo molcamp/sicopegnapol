@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SICOPEGNAPOL</string>
+    <string name="escanear_codigo_qr">Escanear Codigo QR</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="tab_text_1">ENTREGA</string>
+    <string name="tab_text_2">LISTA</string>
+    <string name="tab_text_3">RECIBO</string>
+    <string name="tab_text_4">ESCANEO</string>
+    <string name="tab_text_5">REGISTRO MANUAL</string>
+    <string name="tab_text_6">LOGIN</string>
+    <string name="tab_text_7">REGISTRO</string>
+    <string name="tab_text_8">CONSULTA</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello black fragment</string>
+
+</resources>

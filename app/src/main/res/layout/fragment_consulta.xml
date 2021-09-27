@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".consulta">
+
+
+    <EditText
+        android:id="@+id/dni"
+        android:layout_width="211dp"
+        android:layout_height="32dp"
+        android:background="#679136"
+        android:digits="0123456789"
+        android:ems="10"
+        android:hint="Ingresar DNI"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.059" />
+
+    <Button
+        android:id="@+id/consultardni"
+        android:layout_width="93dp"
+        android:layout_height="56dp"
+        android:background="@drawable/button_rounded"
+        android:fontFamily="@font/montserratbold"
+        android:text="Buscar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <ListView
+        android:id="@+id/listadni"
+        android:layout_width="376dp"
+        android:layout_height="201dp"
+        android:background="#324719"
+        android:divider="#2D732C"
+        android:dividerHeight="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.209" />
+
+    <EditText
+        android:id="@+id/dominio"
+        android:layout_width="211dp"
+        android:layout_height="32dp"
+        android:background="#679136"
+        android:ems="10"
+        android:hint="Ingresar Dominio"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.532" />
+
+    <Button
+        android:id="@+id/consultardom"
+        android:layout_width="93dp"
+        android:layout_height="56dp"
+        android:text="Buscar"
+        android:fontFamily="@font/montserratbold"
+        android:background="@drawable/button_rounded"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.543" />
+
+    <ListView
+        android:id="@+id/listadom"
+        android:layout_width="371dp"
+        android:layout_height="215dp"
+        android:background="#324719"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.921"
+        android:divider="#2D732C"
+        android:dividerHeight="4dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
